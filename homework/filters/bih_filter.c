@@ -3,7 +3,7 @@
 #define signalSize 4
 
 void arrayInput(double arr[], int arrSize);
-
+\
 int main(){
     //init
     double num[delayLine] = {2, 2, 3};
@@ -15,7 +15,7 @@ int main(){
     }
     
 
-    for(int i = 0; i < delayLine; i++){
+    for(int i = 0; i < signalSize; i++){
         //delay line
         for(int j = delayLine-1; j > 0; j--)
         {
